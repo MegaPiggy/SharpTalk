@@ -1,0 +1,14 @@
+﻿<Window x:Class="SpeakApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpeakApp"
+        mc:Ignorable="d"
+        Title="SharpTalk Speaking GUI" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Speak" Content="Speak" Click="SpeakClick" Margin="10,379,10,10"/>
+        <RichTextBox x:Name="Speech" Margin="10,10,10,106" Background="LightGray" />
+        <Button x:Name="ToWAV" Content="To WAV" Click="WAVClick" Margin="10,333,10,60"/>
+    </Grid>
+</Window>
